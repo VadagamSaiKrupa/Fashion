@@ -1,0 +1,127 @@
+<html>
+<head>
+	<title>Website for fashion</title>
+	<link rel="stylesheet "href="style.css" >
+</head>
+<style>
+body
+{
+  background-image: url(login.jpg);
+  background-size: cover;
+  background-position:center;
+  
+  font-family: sans-serif;
+}
+h1{
+  font-size: 80px;
+  text-shadow: 0 0 3px whitesmoke;
+}
+p{
+  text-shadow: 0 0 3px #FF0000;
+  font-size: 30px;
+  color:#FDFEFF;
+}
+.form{
+    width: 350px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position:absolute;
+    top: 120px;
+    left:670px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #510B7D;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #9906F5;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 120px;
+    height: 40px;
+    background: #510B7D;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color:#9906F5;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+</style>
+<body>
+  <div class="menu-bar">
+  <ul>
+    <li class="active" ><a href="#">FashionToday</a></li>
+    <li ><a href="index.html">Home</a></li>
+    <li><a href="women.html">Women</a></li>
+    <li><a href="men.html">Men</a></li>
+    <li><a href="kids.html">Kids</a></li>
+    <li><a href="cart.html">Cart</a></li>
+    <li><a href="feedback.html">Offers</a></li>
+    <li><a href="#">Profile</a>
+      <div class="sub-menu-l">
+        <ul>
+          <li class="hover-me"><a href="login.html">Login</a></li>
+          <li class="hover-me"><a href="signup.html">SignIn</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+
+ <div class="form">
+    <center>
+        <h2>Signin Here</h2>
+        <input type="name" name="" placeholder="Enter Your Name Here">
+        <input type="contact" name="" placeholder="Enter Your Contact Number ">
+        <input type="email" name="email" placeholder="Enter Email Here">
+        <input type="password" name="" placeholder="Enter Password Here">
+        <table>
+            <tr><td>
+        <button class="btnn"><a href="#">Submit</a></button></td><td><button class="btnn"><a href="#">Reset</a></button></td></tr></table>
+        </div>
+    </body>
+</html>
